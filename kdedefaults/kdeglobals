@@ -1,8 +1,8 @@
 [General]
-ColorScheme=BreezeLight
+ColorScheme=KlassyDark
 
 [Icons]
-Theme=breeze
+Theme=klassy-dark
 
 [KDE]
-widgetStyle=Breeze
+widgetStyle=Klassy

@@ -42,7 +42,7 @@ mkdir $HOME/Packages
 git clone https://github.com/paulmcauley/klassy $HOME/Packages/klassy
 cd $HOME/Packages/klassy
 git checkout plasma6.3
-./install
+./install.sh
 cd $HOME/.config
 
 # setup vim
