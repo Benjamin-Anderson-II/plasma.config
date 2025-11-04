@@ -2,7 +2,6 @@
 
 ```bash
 git clone https://github.com/Benjamin-Anderson-II/plasma.config.git ~/.config
-```
-```bash
+cd ~/.config
 ./install.sh
 ```
