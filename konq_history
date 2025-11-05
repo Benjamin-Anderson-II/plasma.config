@@ -1,2 +1,6 @@
 [History]
 CompletionItems=unused
+
+[Location Bar]
+ComboContents[$e]=https://github.com/login
+ComboIconCache[$e]=https://github.com/login,$HOME/.cache/favicons/github.com.png
