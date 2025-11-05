@@ -134,6 +134,8 @@ ForegroundVisited=155,89,182
 
 [General]
 ColorSchemeHash=036e29f906c78b56cdde4b1777d3300f03b10363
+XftSubPixel=none
+fixed=Hack Nerd Font Mono,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
 
 [KDE]
 LookAndFeelPackage=org.kde.klassykisweetdarkbottompanel.desktop
