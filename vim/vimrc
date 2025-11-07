@@ -22,6 +22,9 @@ noremap 0 g^
 " navigation
 set whichwrap+=b,s,h,l,<,>,[,]
 
+" Folding
+set foldmethod=indent
+
 " numlines
 set nu
 set nowrap
@@ -53,6 +56,10 @@ set shiftround
 set expandtab
 set autoindent
 set smartindent
+
+" Spell checker
+:set spell
+:set spelllang=en_us
 
 " Cursor Type (insert/replace/etc)
 let &t_SI = "\<Esc>[6 q" "insert
