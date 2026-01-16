@@ -1,4 +1,8 @@
+[GuiConfig]
+captureMode=0
+
 [ImageSave]
+lastImageSaveLocation=file:///home/ben/Pictures/Screenshots/Screenshot_20251108_122010.png
 translatedScreenshotsFolder=Screenshots
 
 [VideoSave]

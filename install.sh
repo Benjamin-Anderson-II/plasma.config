@@ -28,6 +28,8 @@ echo -e "\n"
 read -r
 
 # Git config stuff
+git config --global pull.rebase false
+git config --global alias.adog "log --all --decorate --oneline --graph"
 git config --global user.email "$EMAIL"
 git config --global user.name "$NAME"
 
@@ -45,6 +47,7 @@ flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.f
 sudo apt install vim
 sudo snap install install obsidian --classic
 sudo snap install spotify
+flatpak install discord
 sudo apt install nvme-cli
 sudo apt install git build-essential cmake extra-cmake-modules libkirigami-dev libkf5style-dev libkf6kcmutils-dev libkf6colorscheme-dev libkf5config-dev libkf5configwidgets-dev libkf5coreaddons-dev libkf5guiaddons-dev libkf6i18n-dev libkf6iconthemes-dev kirigami2-dev libkf6package-dev libkf6service-dev libkf6windowsystem-dev kwayland-dev libx11-dev libkdecorations3-dev libkf5configwidgets-dev libkf5i18n-dev libkf5iconthemes-dev libkf5kcmutils-dev libkf5package-dev libkf5service-dev libkf5wayland-dev libkf5windowsystem-dev libplasma-dev libqt5x11extras5-dev qt6-base-dev qt6-declarative-dev qtbase5-dev qtdeclarative5-dev gettext qt6-svg-dev
 mkdir $PACKAGES
@@ -65,6 +68,10 @@ git clone git@github.com:Benjamin-Anderson-II/Idekyl.git $OBSIDIAN/Idekyl
 mkdir -p $HOME/CLASSES/CS_461
 git clone git@github.com:Benjamin-Anderson-II/NVMeCLI_cmdTest.git $HOME/CLASSES/CS_461/NVMeCLI_cmdTest
 cd $CONFIG
+
+# FaB Sides Scheduler
+mkdir $HOME/code
+git clone git@github.com:Benjamin-Anderson-II/FaB-Sides-Scheduler.git $HOME/code/Fab-Sides-Scheduler
 
 # link fonts into .local and reload them
 ln -s $FONTS $HOME/.local/share/fonts

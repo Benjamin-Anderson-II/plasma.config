@@ -1,0 +1,24 @@
+[General]
+BrowserApplication[$d]
+ColorScheme[$d]
+ColorSchemeHash[$d]
+File1[$e]=$HOME/2025-11-14 00-30-30.mkv
+Name1[$e]=2025-11-14 00-30-30.mkv
+TimeFormat=1
+Volume=1
+XftAntialias[$d]
+XftHintStyle[$d]
+XftSubPixel[$d]
+fixed[$d]
+
+[Phonon::AudioOutput]
+Dragon Player_Volume=1
+
+[file:///home/ben/2025-11-14 00-30-30.mkv]
+Brightness=0
+Contrast=0
+Date=2025,11,14
+Hue=0
+IsVideo=false
+Preferred Size=942,402
+Saturation=0

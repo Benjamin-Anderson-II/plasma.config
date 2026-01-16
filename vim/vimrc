@@ -2,6 +2,7 @@
 call plug#begin()
 Plug 'catppuccin/vim', { 'as': 'catppuccin' }
 Plug 'itchyny/lightline.vim'
+Plug 'ap/vim-buftabline'
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-commentary'
@@ -9,6 +10,8 @@ Plug 'tpope/vim-repeat'
 Plug 'tpope/vim-vinegar'
 call plug#end()
 
+" Set Mapleader
+let mapleader = ' '
 
 " quick hotkeys
 imap <C-s> <Esc>:w<CR>
@@ -21,6 +24,10 @@ noremap 0 g^
 
 " navigation
 set whichwrap+=b,s,h,l,<,>,[,]
+
+" Buffer Navigation
+nnoremap <leader>, :bp<CR>
+nnoremap <leader>. :bn<CR>
 
 " Folding
 set foldmethod=indent

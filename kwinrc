@@ -1,12 +1,13 @@
 [Activities][LastVirtualDesktop]
-8ebae719-b144-4c23-8029-22befc865a61=0e826c03-7391-464a-b7da-cf83c9b23f20
+8ebae719-b144-4c23-8029-22befc865a61=9c47f77b-60d8-4108-95f0-86dca3e31b94
 
 [Desktops]
 Id_1=9c47f77b-60d8-4108-95f0-86dca3e31b94
 Id_2=0e826c03-7391-464a-b7da-cf83c9b23f20
 Id_3=437189a5-bea9-481a-a212-96b6773df0c1
 Id_4=40e7d50f-c120-470b-908b-6eb4fbda7235
-Number=4
+Id_5=c3564c44-6c52-438d-8e42-0281952cf966
+Number=5
 Rows=1
 
 [Plugins]
@@ -32,7 +33,7 @@ tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"wi
 RollOverDesktops=true
 
 [Xwayland]
-Scale=1.15
+Scale=1
 
 [org.kde.kdecoration2]
 BorderSize=Normal
