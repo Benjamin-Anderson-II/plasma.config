@@ -1,0 +1,33 @@
+[General]
+LastUsedVersion=210800
+SideBarPage=operations
+
+[MainWindow]
+MenuBar=Disabled
+
+[Recent Files]
+File1[$e]=$HOME/Pictures/Screenshots/Screenshot_20251108_122010.png
+File10[$e]=$HOME/CLASSES/CS_372/lab1/pictures/pngs/q15b.png
+File2[$e]=$HOME/CLASSES/CS_372/lab1/pictures/pngs/Screenshot_20260128_153450.png
+File3[$e]=$HOME/CLASSES/CS_372/lab1/pictures/pngs/Screenshot_20260128_153513.png
+File4[$e]=$HOME/CLASSES/CS_372/lab1/pictures/pngs/Screenshot_20260128_161940.png
+File5[$e]=$HOME/CLASSES/CS_372/lab1/pictures/pngs/Screenshot_20260128_161954.png
+File6[$e]=$HOME/CLASSES/CS_372/lab1/pictures/pngs/Screenshot_20260128_163508.png
+File7[$e]=$HOME/CLASSES/CS_372/lab1/pictures/pngs/q19b.png
+File8[$e]=$HOME/CLASSES/CS_372/lab1/pictures/pngs/q19a.png
+File9[$e]=$HOME/CLASSES/CS_372/lab1/pictures/pngs/q15a.png
+Name1[$e]=Screenshot_20251108_122010.png
+Name10[$e]=q15b.png
+Name2[$e]=Screenshot_20260128_153450.png
+Name3[$e]=Screenshot_20260128_153513.png
+Name4[$e]=Screenshot_20260128_161940.png
+Name5[$e]=Screenshot_20260128_161954.png
+Name6[$e]=Screenshot_20260128_163508.png
+Name7[$e]=q19b.png
+Name8[$e]=q19a.png
+Name9[$e]=q15a.png
+
+[SideBar]
+InformationSplitterSizes=221,254
+IsVisible ViewMode=true
+SideBarSplitterSizes=227,1670

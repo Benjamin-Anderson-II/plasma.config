@@ -116,4 +116,4 @@ fi
 alias py="python3"
 alias nvme="sudo nvme"
 alias idekyl='cwd="$(pwd)";cd ~/Obsidian/Idekyl;git add .;git commit -m "Linux $(date +%D)";git push origin main;cd "$cwd"'
-alias update='sudo apt update;sudo apt upgrade'
+alias update='sudo apt update;sudo apt upgrade;flatpak update'

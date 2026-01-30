@@ -1,8 +1,13 @@
 " External Extensions
 call plug#begin()
+" Theme
 Plug 'catppuccin/vim', { 'as': 'catppuccin' }
+" Top and Bottom
 Plug 'itchyny/lightline.vim'
 Plug 'ap/vim-buftabline'
+" fzf.vim
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'junegunn/fzf.vim'
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-commentary'
@@ -16,6 +21,8 @@ let mapleader = ' '
 " quick hotkeys
 imap <C-s> <Esc>:w<CR>
 nmap <C-s> :w<CR>
+imap <C-f> <Esc>:RG<CR>
+nmap <C-f> :RG<CR>
 " Remap for md and txt files
 noremap j gj
 noremap k gk

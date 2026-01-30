@@ -29,9 +29,7 @@ read -r
 
 # Git config stuff
 git config --global pull.rebase false
-git config --global alias.adog "log --all --decorate --oneline --graph"
-git config --global user.email "$EMAIL"
-git config --global user.name "$NAME"
+ln -s $CONFIG/.gitconfig $HOME/.gitconfig
 
 rm $HOME/.bashrc
 ln -s $CONFIG/bash/bashrc $HOME/.bashrc
@@ -44,6 +42,13 @@ sudo apt install plasma-discover-backend-flatpak
 flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
 
 # Install applications
+sudo apt install fzf
+sudo apt install bat
+sudo apt install ripgrep
+sudo apt install silversearcher-ag
+sudo apt install git-delta
+sudo apt install perl
+sudo apt install universal-ctags
 sudo apt install vim
 sudo snap install install obsidian --classic
 sudo snap install spotify
